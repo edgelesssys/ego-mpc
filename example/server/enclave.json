@@ -1,0 +1,21 @@
+{
+    "exe": "../bin/server",
+    "key": "../bin/private.pem",
+    "debug": true,
+    "heapSize": 512,
+    "productID": 1,
+    "securityVersion": 1,
+    "mounts": [
+        {
+            "source": "data",
+            "target": "/data",
+            "type": "hostfs"
+        }
+    ],
+    "env": [
+        {
+            "name": "PWD",
+            "value": "/data"
+        }
+    ]
+}

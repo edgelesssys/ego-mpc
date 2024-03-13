@@ -1,0 +1,6 @@
+run:
+  timeout: 10m
+  build-tags: [ego_mpc_mock]
+
+linters:
+  enable: [gofumpt]
