@@ -2,10 +2,8 @@ module github.com/edgelesssys/ego-mpc/example
 
 go 1.20
 
-replace github.com/edgelesssys/ego-mpc => ../
-
 require (
-	github.com/edgelesssys/ego-mpc v0.0.0-00010101000000-000000000000
+	github.com/edgelesssys/ego-mpc v0.1.0
 	go.uber.org/zap v1.27.0
 )
 
